@@ -7,8 +7,8 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-  email: 'Test@gmail.com',
-  password: 'Password',
+  email: '', // fill with email in your firebase database
+  password: '', // fill with password in your firebase database
   user: null,
   error: '',
   loading: false
